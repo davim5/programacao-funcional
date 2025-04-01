@@ -44,7 +44,7 @@ python --version
 1. Navegue até a raiz do projeto.
 2. Execute os testes com o seguinte comando:
    ```bash
-   python -m unittest discover tests
+   python -m unittest -s discover tests
    ```
 
 ## Documentação
