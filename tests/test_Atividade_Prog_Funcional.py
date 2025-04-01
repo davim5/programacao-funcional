@@ -18,7 +18,7 @@ class TestFuncoesGeometria(unittest.TestCase):
     def test_area_circulo(self):
         resultado = calcular_area('circulo',10)
         self.assertEqual(resultado, 314.15927)
-        
+
     # Caso de Teste 04 - Cálculo de múltiplas áreas
     def test_calcular_areas_multiplas(self):
         formas = [
@@ -39,5 +39,6 @@ class TestFuncoesGeometria(unittest.TestCase):
         hipotenusa_func = calcular_hipotenusa(3, 4)
         resultado = hipotenusa_func()
         self.assertEqual(resultado, 5.0)
+        
 if __name__ == '__main__':
     unittest.main()
